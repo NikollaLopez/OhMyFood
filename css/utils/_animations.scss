@@ -1,0 +1,52 @@
+@keyframes slideup {
+    0% {
+        transform : translateY(200px);
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        transform:translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes opacitystart {
+    0% {
+        opacity: 0;
+       
+    }
+    95%{
+        opacity:0;
+    }
+    100% {
+        opacity: 1;
+        
+        
+    }
+}
+@keyframes opacitystartlogo {
+    0% {
+        opacity: 0;
+    }
+    70%{
+        opacity:0.4;
+    }
+    100% {
+        opacity: 1;
+        
+        
+    }
+}
+@keyframes fillheart {
+    0%{
+        opacity:0;
+        
+    }
+    100%{
+        opacity:1;
+        
+        
+    }
+
+}

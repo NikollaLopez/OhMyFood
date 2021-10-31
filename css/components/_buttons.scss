@@ -1,0 +1,47 @@
+.btn{
+    
+    background: $linear-gradient-btn;
+    font-family: 'Roboto';
+    font-size:1.4rem;
+    font-weight:bold;
+    color:white;
+    height:50px;
+    width:220px;
+    border-radius: 30px;
+    @include box-shadow;
+    border:none;
+    line-height: 50px;
+    cursor: pointer;
+    margin:auto;
+    &.btn-explore{
+    margin-top:40px;
+    
+    font-size:1rem;
+   
+    }
+    a{
+        color:white;
+    }
+    &:hover{
+        opacity: 0.6;
+        box-shadow: 1px 1px 20px $secondary-color;
+        }
+
+}
+.btn-command{
+    margin-top:25px;
+    animation: opacitystart 3s;
+    @include  tablet{
+    margin-top:20px;
+    }
+    @include  desktop{
+    margin-top:10px;
+    }
+    @include  lg_desktop{
+    margin-top:40px;
+    }    
+    @include xlg_desktop{
+    margin-top:0px;    
+    }
+}
+

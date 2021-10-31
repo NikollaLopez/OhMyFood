@@ -1,0 +1,28 @@
+header{
+    height:65px;
+    
+}
+.header__restaurant{
+    display:flex;
+    justify-content: center;
+    padding-right:20%;
+    .logo{
+        padding:2px 0 0 8%;
+        animation:none;
+        
+    }
+    .arrow{
+    padding: 18px 25px 0 0;
+        .fas{
+        font-size:200%;
+        }
+    }
+}        
+.logo{
+    text-align:center;
+    font-size:3rem;
+    padding-top:5px;
+    animation: opacitystartlogo 4s ease-in-out;
+    
+    
+}
